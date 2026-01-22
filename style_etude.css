@@ -1,0 +1,90 @@
+body{
+    background-color: #fcf0f1;
+    font-family: Arial, sans-serif;
+}
+
+/* Titre */
+.head {
+    text-align: center;
+    font-size: 36px;
+    color: #e65054;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+/* Ligne sous le titre */
+.ligne{
+    width: 80px;
+    height: 4px;
+    background-color: #ffabaf;
+    border: none;
+    margin: 0 auto 40px;
+    border-radius: 10px;
+}
+
+/* Section principale */
+.etudes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+/* Colonnes */
+.etudes .etudes-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/* Chaque colonne */
+.etudes-row .etudes-column{
+    flex: 1 1 500px;
+}
+
+/* Titre colonne */
+.etudes-column .title{
+    font-size: 26px;
+    margin-bottom: 24px;
+    color: #e65054;
+}
+
+/* Suppression de la ligne verticale compliquée */
+.etudes-column .etudes-box{
+    border: none;
+}
+
+/* Carte simple */
+.etudes-content .content{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 14px;
+    margin-bottom: 24px;
+    box-shadow: 0 6px 15px rgba(230, 80, 84, 0.15);
+    transition: transform 0.3s;
+}
+
+.etudes-content .content:hover{
+    transform: translateY(-5px);
+}
+
+/* Année */
+.etudes-content .content .year{
+    font-size: 18px;
+    color: #ffabaf;
+    font-weight: bold;
+}
+
+/* Titre */
+.etudes-content .content h3{
+    font-size: 20px;
+    margin: 10px 0;
+    color: #e65054;
+}
+
+/* Texte */
+.etudes-content .content p{
+    font-size: 16px;
+    color: #555;
+}
